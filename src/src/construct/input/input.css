@@ -1,0 +1,23 @@
+.container__params {
+    font-style: italic;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    background-color: #a1e6e960;
+    text-shadow: 2px 2px 5px rgb(0, 217, 255);
+    box-shadow: rgb(0, 255, 21);
+
+}
+
+.container__buttons-submit {
+    width: 100px;
+    border-radius: 2px;
+    height: 30px;
+}
+
+
+.container__buttons-reset {
+    width: 100px;
+    border-radius: 2px;
+    height: 30px;
+}
