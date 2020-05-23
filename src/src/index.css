@@ -51,7 +51,7 @@ form {
 .modal-page {
     background-color: rgba(2, 32, 36, 0.8);
     display: flex;
-    margin: 0 auto;
+    margin: 200px auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
