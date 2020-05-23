@@ -21,7 +21,8 @@ class Input extends React.Component {
         className,
         placeholder,
         value,
-        onclick,
+        onClick,
+        onKeyPress,
     } = this.props
 
         return (
@@ -30,9 +31,10 @@ class Input extends React.Component {
                 className = {className}
                 placeholder = {placeholder}
                 value = {value}
-                onclick = {onclick}
+                onClick = {onClick}
+                onKeyPress = {onKeyPress}
             />
-        );
+        )
     }
 }
 

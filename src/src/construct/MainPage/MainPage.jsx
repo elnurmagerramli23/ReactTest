@@ -1,5 +1,6 @@
 import React from 'react'
 import Modal from '../Modal/Modal'
+import './main.css'
 
 export default class MainPage extends React.Component{
     constructor(props) {
@@ -8,12 +9,15 @@ export default class MainPage extends React.Component{
             isShowModal: false,
         }
     }
+
     changeModal = isShow => {
         this.setState ({isShowModal: isShow}) 
     }
+
     render() {
         const { changeModal } = this;
         const { isShowModal } = this.state;
+    
         return (
             <>
                 {isShowModal ? (<Modal/>) : 
