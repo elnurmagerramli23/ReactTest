@@ -4,12 +4,13 @@
     margin: 150px auto;
     text-align: center;
     flex-direction: column;
-    width: 400px;
+    width: 500px;
     border-radius: 10px;
+    border: 1px solid #ffffff;
 }
 
 .container__title {
-    color: #15fd4f;
+    color: #fdda15;
 }
 
 .container__text {
