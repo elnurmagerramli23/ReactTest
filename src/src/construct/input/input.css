@@ -1,23 +1,35 @@
 .container__params {
     font-style: italic;
     text-align: center;
-    width: 150px;
-    height: 20px;
-    background-color: #a1e6e960;
-    text-shadow: 2px 2px 5px rgb(0, 217, 255);
-    box-shadow: rgb(0, 255, 21);
-
+    width: 200px;
+    height: 30px;
+    background: none;
+    color: rgb(39, 230, 135);
+    font-size: 20px;
+    border: 1px solid #8f8383;
+}
+.container__params::placeholder{
+    color: #ffffff;
 }
 
 .container__buttons-submit {
-    width: 100px;
-    border-radius: 2px;
+    border-radius: 5px;
     height: 30px;
+    background: none;
+    width: 200px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 20px;
 }
 
 
 .container__buttons-reset {
-    width: 100px;
-    border-radius: 2px;
+    width: 200px;
+    border-radius: 5px;
     height: 30px;
+    color: #e67256;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid #ffffff;
 }

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+    text-align: center;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+
+.container__title {
+    color: #fdda15;
+}
+
+.container__text {
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: #15fd4f;
+  }
+  
+  .container__buttons {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+}
+  
