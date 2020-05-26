@@ -1,5 +1,5 @@
 import React from 'react'
-import Modal from '../Modal/Modal'
+import Modal from '../Modal/ModalPage'
 import './main.css'
 
 export default class MainPage extends React.Component{

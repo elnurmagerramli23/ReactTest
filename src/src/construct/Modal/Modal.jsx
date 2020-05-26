@@ -61,7 +61,7 @@ class Modal extends React.Component{
                     <Input 
                         type = {'text'}
                         onChange = {name}
-                        onKeyPress = {event => handleData(event)}
+                        onKeyDown = {event => handleData(event)}
                         className = {'container__params'}
                         id = {'fullNameInput'}
                         placeholder = {'Enter your full name...'}
@@ -73,7 +73,7 @@ class Modal extends React.Component{
                         id = {'ageInput'}
                         placeholder = {'Enter your age...'}
                         onChange = {age}
-                        onKeyPress = {event => handleData(event)}
+                        onKeyDown = {event => handleData(event)}
                     />
                     <p className = 'container__text'>e-mail :</p>
                     <Input 
@@ -82,7 +82,7 @@ class Modal extends React.Component{
                         id = {'emailInput'}
                         placeholder = {'Enter your email...'}
                         onChange = {email}
-                        onKeyPress = {event => handleData(event)}
+                        onKeyDown = {event => handleData(event)}
                     />
                     <p className = 'container__text'>Telephone number :</p>
                     <Input 
@@ -91,7 +91,10 @@ class Modal extends React.Component{
                         id = {'phoneInput'}
                         placeholder = {'Enter your phone number...'}
                         onChange = {phone}
-                        onKeyPress = {event => handleData(event)}
+                        onKeyDown = {event => {
+                            console.log(this.state.email + 'budu');
+                            
+                            handleData(event)}}
                     />  
                     <div className = 'container__buttons'>
                         <Input
