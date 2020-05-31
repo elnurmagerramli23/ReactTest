@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import MainPage from './construct/MainPage/MainPage'
+// import Modal from './construct/MainPage/ModalPage';
+import MainPage from './construct/MainPage/MainPage';
 
 function App() {
     return (
